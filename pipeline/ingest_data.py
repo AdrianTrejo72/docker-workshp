@@ -41,7 +41,7 @@ parse_dates = [
 @click.option('--month', default=1, type=int)
 @click.option('--pg-user', default='root')
 @click.option('--pg-password', default='root')
-@click.option('--pg-host', default='localhost')
+@click.option('--pg-host', default='pgdatabase')
 @click.option('--pg-db', default='ny_taxi')
 @click.option('--pg-port', default=5432, type=int)
 @click.option('--chunksize', default=100000, type=int)
