@@ -12,6 +12,7 @@ dependencies = [
     "psycopg2-binary>=2.9.12",
     "pyarrow>=25.0.1",
     "sqlalchemy>=2.0.52",
+    "tqdm>=4.70.0",
 ]
 
 [project.scripts]
